@@ -1,0 +1,205 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f1f3f6;
+    color: #333;
+}
+
+header {
+    background-color: #252525;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+header p {
+    font-size: 12px;
+}
+
+nav {
+    background-color: #333;
+    margin-top: 15px;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+main {
+    width: 90%;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.conteudo {
+    background-color: white;
+    padding: 18px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px #ddd;
+}
+
+.conteudo h2 {
+    font-size: 17px;
+    margin-bottom: 12px;
+}
+
+.conteudo p {
+    font-size: 13px;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}
+
+.tit-02 {
+    color: #2563c7;
+}
+
+.segunda-div {
+    margin-top: 15px;
+}
+
+.caixa {
+    background-color: #eee;
+    padding: 15px;
+    margin-bottom: 8px;
+    border-radius: 3px;
+}
+
+.caixa h3 {
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.caixa p {
+    margin: 0;
+}
+
+.estilo {
+    background-color: #f5bcbc;
+    color: #a00000;
+}
+
+.botoes {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    background-color: #2864c7;
+    color: white;
+    border: none;
+    padding: 9px 14px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #174a9b;
+}
+
+
+.conteudo ul {
+    padding-left: 25px;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+
+.conteudo img {
+    width: 120px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+form label {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: Arial, sans-serif;
+}
+
+textarea {
+    height: 70px;
+    resize: vertical;
+}
+
+form button {
+    align-self: flex-start;
+    margin-top: 5px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 9px;
+    text-align: left;
+}
+
+th {
+    background-color: #eee;
+}
+
+
+footer {
+    background-color: #252525;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 12px;
+}
+
+
+@media (max-width: 500px) {
+    main {
+        width: 95%;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    .conteudo {
+        padding: 13px;
+    }
+}
